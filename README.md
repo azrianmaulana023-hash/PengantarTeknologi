@@ -37,3 +37,5 @@ Diagram
         ISBN PK, FK
         Jumlah_Buku_Dipinjam
     }
+
+ERD Peminjaman Buku

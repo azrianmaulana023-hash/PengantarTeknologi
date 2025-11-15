@@ -6,34 +6,34 @@ erDiagram
     BUKU ||--o{ DETAIL_PINJAM : "termasuk_dalam"
     
     ANGGOTA {
-        ID_Anggota_PK
+        ID_Anggota PK
         Nama
         Alamat
-    }
-    
+    } 
+
     PETUGAS {
-        ID_Petugas_PK
+        ID_Petugas PK
         Nama_Petugas
         Jabatan
-    }
-    
+    } 
+
     BUKU {
-        ISBN_PK
+        ISBN PK
         Judul
         Pengarang
         Jumlah_Stok
-    }
-    
+    } 
+
     PEMINJAMAN {
-        ID_Peminjaman_PK
+        ID_Peminjaman PK
         Tanggal_Pinjam
         ID_Anggota FK
         ID_Petugas FK
         Status_Pinjaman
-    }
-    
+    } 
+
     DETAIL_PINJAM {
-        ID_Peminjaman_PK,_FK
+        ID_Peminjaman PK, FK
         ISBN PK, FK
         Jumlah_Buku_Dipinjam
     }

@@ -10,20 +10,17 @@ erDiagram
         Nama
         Alamat
     } 
-
     PETUGAS {
         ID_Petugas PK
         Nama_Petugas
         Jabatan
     } 
-
     BUKU {
         ISBN PK
         Judul
         Pengarang
         Jumlah_Stok
     } 
-
     PEMINJAMAN {
         ID_Peminjaman PK
         Tanggal_Pinjam
@@ -31,7 +28,6 @@ erDiagram
         ID_Petugas FK
         Status_Pinjaman
     } 
-
     DETAIL_PINJAM {
         ID_Peminjaman PK, FK
         ISBN PK, FK
